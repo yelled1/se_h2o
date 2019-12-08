@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.7.5"
+
+[packages]
+requests = "*"
+tabulate = "*"
+future = "*"
+colorama = "*"
+h2o = "*"
+numpy = "*"
+pandas = "*"
+sympy = "*"
+plotly = "*"
+matplotlib = "*"
+
+[dev-packages]
+jupyter = "*"
+jupyterlab = "*"
+jupyterthemes = "*"
+jupyter_kernel_gateway = "*"
+jupyter-contrib-nbextensions = "*"
+jupyterlab_latex = "*"
+pylint = "*"
+"autopep8" = "*"
+pudb = "*"
+neovim = "*"
+
+[scripts]
+lint = "pylint --rcfile=../.pylintrc production"
+lint-fix = "autopep8 --in-place --aggressive --aggressive --recursive production utils dev ../schema"

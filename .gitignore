@@ -1,0 +1,10 @@
+Arch/
+# ignore csv
+*.csv
+*.pyo
+*.pyc
+*.docx
+*.pkl
+*.bk*
+*.txt
+*.pdf
