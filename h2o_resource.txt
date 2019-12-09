@@ -1,2 +1,5 @@
 http://docs.h2o.ai/h2o-tutorials/latest-stable/tutorials/intro-to-datascience/index.html
+
 https://www.coursera.org/learn/machine-learning-h2o/lecture/bSRJb/a-quick-deep-learning
+
+https://stackoverflow.com/questions/51528441/pipenv-how-to-handle-locally-installed-whl-packages
